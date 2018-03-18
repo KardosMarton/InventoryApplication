@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Inventory</string>
+
+    <string name="empty_welcome_title">The store is currently empty</string>
+    <string name="empty_welcome_message">Please push the plus button below to insert an item to the store</string>
+
+    <string name="menu_editor_and_main_delete">Delete</string>
+    <string name="menu_editor_save">Save</string>
+
+    <string name="list_txt_name">Product name</string>
+    <string name="list_txt_type">Product type</string>
+    <string name="list_txt_price">Product price</string>
+    <string name="list_txt_quantity">In store</string>
+    <string name="list_btn_buy">BUY</string>
+
+    <string name="type_unknown">Type unknown</string>
+    <string name="type_dairy_prod">Dairy products</string>
+    <string name="type_butchers_meat">Butcher\'s meat</string>
+    <string name="type_species">Species</string>
+    <string name="type_sweets">Sweets</string>
+    <string name="type_snacks_and_candies">Snacks and candies</string>
+
+    <string name="editor_lbl_name">Name :</string>
+    <string name="editor_lbl_type">Type :</string>
+    <string name="editor_lbl_quantity">Quantity :</string>
+    <string name="editor_lbl_price">Price :</string>
+    <string name="editor_lbl_supplier_name">Supplier name: </string>
+    <string name="editor_lbl_supplier_email">Supplier mail: </string>
+    <string name="hint_mail">supplier@mail.com</string>
+    <string name="hint_supplier">Supplier Name Here</string>
+
+    <string name="editor_etxt_name">Type item name here</string>
+    <string name="editor_btn_increase_quantity">+1</string>
+    <string name="editor_btn_decrease_quantity">-1</string>
+    <string name="editor_btn_add_image"> + Image</string>
+    <string name="editor_btn_order_via_mail">Order item online</string>
+
+    <string name="editor_img_desc">Picture from file attached to the item</string>
+    <string name="main_empty_content">This is an empty state image. Shown when there are no items in the database</string>
+    <string name="main_add_img_content">Add item to the database button</string>
+    <string name="main_delete_all_product">Delete all product from the database</string>
+    <string name="main_error_delete_all">Failed to deleting all the product from the database</string>
+    <string name="main_dialog_delete">Do you want to delete all products?</string>
+    <string name="main_dialog_yes">Yes</string>
+    <string name="main_dialog_no">No</string>
+
+    <string name="title_editor_add">Add item</string>
+    <string name="title_editor_edit">Edit existing item</string>
+
+    <string name="failed_to_load_image">Filed to load the image</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="image_not_found">Please insert an image!</string>
+    <string name="update_item_failed">Failed to update the item</string>
+    <string name="update_item_successful">Successfully updated the item </string>
+    <string name="no_more_product">No more product available!</string>
+
+    <string name="delete_dialog_msg">Do you really want to delete this?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_item_failed">Failed to delete item</string>
+    <string name="delete_item_successful">Successfully deleted the item</string>
+
+    <string name="not_valid_name">Must give a name!</string>
+    <string name="price_not_valid">Price not valid!</string>
+
+    <string name="error_insert_failed">Failed to insert</string>
+    <string name="confirm_insert_successful">Inserted successfully</string>
+    <string name="unsaved_changes">There are unsaved changes!</string>
+    <string name="discard">Discard!</string>
+    <string name="keep_editing">Keep editing!</string>
+    <string name="not_valid_quantity">Provide a quantity value!</string>
+    <string name="not_valid_price">Must give a price!</string>
+
+</resources>

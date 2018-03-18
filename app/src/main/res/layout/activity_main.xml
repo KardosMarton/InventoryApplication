@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    tools:context="com.example.android.inventoryapplication.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/empty_main_view_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/empty_main_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/main_empty_content"
+            android:src="@drawable/emptyimage" />
+
+        <TextView
+            android:id="@+id/txt_main_empty_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/empty_main_image"
+            android:layout_centerHorizontal="true"
+            android:text="@string/empty_welcome_title"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txt_main_empty_message"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_main_empty_title"
+            android:layout_centerHorizontal="true"
+            android:text="@string/empty_welcome_message" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/img_main_add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/ic_add_circle_black_36dp"
+        android:contentDescription="@string/main_add_img_content"
+        android:focusable="false" />
+
+</RelativeLayout>

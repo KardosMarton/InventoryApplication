@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_type_option">
+        <item>@string/type_unknown</item>
+        <item>@string/type_dairy_prod</item>
+        <item>@string/type_butchers_meat</item>
+        <item>@string/type_species</item>
+        <item>@string/type_sweets</item>
+        <item>@string/type_snacks_and_candies</item>
+    </string-array>
+
+</resources>
